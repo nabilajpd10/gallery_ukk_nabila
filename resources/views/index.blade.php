@@ -27,7 +27,7 @@
         <a href="#" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Selamat Datang {{ Session::get('name') }}</a>
+        <a href="#" class="nav-link">Welcome {{ Session::get('name') }}</a>
       </li>
     </ul>
 
